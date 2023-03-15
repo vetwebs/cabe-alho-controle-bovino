@@ -26,9 +26,7 @@
     margin: 5px;
     padding: 5px 50px 5px 10px;
    
-    
 }
-
 
 /*navegação*/
 .navegação{
@@ -58,7 +56,6 @@
 .div-1-1:hover,.div-2-1:hover,.div-3-1:hover{
     box-shadow: 1px 4px rgb(15, 151, 22);
   
-
 }
 /*Sobdivisões div1*/
 .div-1 ul{
@@ -138,4 +135,38 @@
      text-align: center;
  
  }
-
+ @media (max-width: 1000px) {
+  .cabeçalho__container nav{
+    position: fixed;
+    margin: 0;
+}
+.cabeçalho__container img{
+    margin-left: 10px;
+}
+.cabeçalho__container p{
+    font-size: 12px;
+}
+.div-1-1, .div-2-1,.div-3-1{
+    display: block;
+    margin: 2px;
+    margin-top: 7em;
+    box-shadow: 1px 4px rgb(126, 121, 121);
+    border-radius: 10px;
+    padding: 5x;
+    
+}
+    .one, .two, .three{
+        background: linear-gradient(rgb(15, 151, 22), rgb(185, 182, 182));
+        border-radius: 5px;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+    .menu-burguer{
+        margin-top: 5%;
+        margin-right: 20px;
+        width: 40px;
+        height: 30px;
+    }
+    
+}
