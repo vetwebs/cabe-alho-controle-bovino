@@ -13,7 +13,7 @@
 .cabeçalho__container{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(196, 199, 201);
+    background: linear-gradient(rgb(241, 236, 236), rgba(139, 138, 138, 0.671));
     margin: auto;
 }
 .cabeçalho-1-1{
@@ -57,6 +57,85 @@
 }
 .div-1-1:hover,.div-2-1:hover,.div-3-1:hover{
     box-shadow: 1px 4px rgb(15, 151, 22);
-    transition: 0.8s;
+  
 
 }
+/*Sobdivisões div1*/
+.div-1 ul{
+   display: none;
+    position: relative;
+    list-style-type: none;
+    
+}
+.div-1:hover .sub-menu-div-1 ul{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background: linear-gradient(rgb(139, 136, 136), rgb(226, 222, 222));
+    border-radius: 10px;
+    
+}
+.sub-menu-div-1 a:hover{
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   
+}
+.div-1:hover ul li{
+    padding: 10px;
+    text-align: center;
+
+}
+/*Sobdivisões div2*/
+.div-2 ul{
+    display: none;
+     position: relative;
+     list-style-type: none;
+     
+ }
+ .div-2:hover .sub-menu-div-2 ul{
+     display: block;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background: linear-gradient(rgb(139, 136, 136), rgb(226, 222, 222));
+     border-radius: 10px;
+     
+ }
+ .sub-menu-div-2 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+ }
+ .div-2:hover ul li{
+     padding: 10px;
+     text-align: center;
+ 
+ }
+ /*Sobdivisões div3*/
+.div-3 ul{
+    display: none;
+     position: relative;
+     list-style-type: none;
+     
+ }
+ .div-3:hover .sub-menu-div-3 ul{
+     display: block;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background: linear-gradient(rgb(139, 136, 136), rgb(226, 222, 222));
+     border-radius: 10px;
+     
+ }
+ .sub-menu-div-3 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+ }
+ .div-3:hover ul li{
+     padding: 10px;
+     text-align: center;
+ 
+ }
+
