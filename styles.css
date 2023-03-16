@@ -144,29 +144,15 @@
     margin-left: 10px;
 }
 .cabeçalho__container p{
-    font-size: 12px;
+    font-size: 13px;
 }
 .div-1-1, .div-2-1,.div-3-1{
     display: block;
     margin: 2px;
     margin-top: 7em;
-    box-shadow: 1px 4px rgb(126, 121, 121);
+    box-shadow: 1px 4px rgb(94, 90, 90);
     border-radius: 10px;
     padding: 5x;
-    
 }
-    .one, .two, .three{
-        background: linear-gradient(rgb(15, 151, 22), rgb(185, 182, 182));
-        border-radius: 5px;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
-    }
-    .menu-burguer{
-        margin-top: 5%;
-        margin-right: 20px;
-        width: 40px;
-        height: 30px;
-    }
-    
+
 }
